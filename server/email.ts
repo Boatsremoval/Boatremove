@@ -39,7 +39,7 @@ export async function sendQuoteEmail(quoteData: QuoteRequest) {
     // Note: Using test account email due to Resend test account restrictions
     // For production, change this to quote@boatsremoval.com after verifying domain
     const { data, error } = await resend.emails.send({
-      from: 'Boats Removal <onboarding@resend.dev>',
+      from: process.env.EMAIL_FROM || 'Boats Removal <onboarding@resend.dev>',
       to: [process.env.QUOTE_EMAIL || 'serkormik@gmail.com'],
       subject: `New Quote Request - ${quoteData.firstName} ${quoteData.lastName}`,
       html: emailContent,
@@ -101,7 +101,7 @@ export async function sendContactEmail(contactData: ContactRequest) {
     })) || [];
 
     const { data, error } = await resend.emails.send({
-      from: 'Boats Removal <onboarding@resend.dev>',
+      from: process.env.EMAIL_FROM || 'Boats Removal <onboarding@resend.dev>',
       to: [process.env.QUOTE_EMAIL || 'serkormik@gmail.com'],
       subject: `Contact Form - ${contactData.name}`,
       html: emailContent,
