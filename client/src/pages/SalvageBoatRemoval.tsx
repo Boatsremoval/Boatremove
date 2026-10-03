@@ -47,7 +47,7 @@ export default function SalvageBoatRemoval() {
   return (
   <>
   <Helmet>
-    <link rel="canonical" href="https://boatsremoval.com/salvage-boat-removal" />
+    <link rel="canonical" href="https://boatremove.com/salvage-boat-removal" />
   </Helmet>
   <Header />
 

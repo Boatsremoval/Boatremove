@@ -3,7 +3,7 @@ const path = require('path');
 const { SitemapStream, streamToPromise } = require('sitemap');
 
 const ROUTER_FILE = './client/src/App.tsx'; // change if your routes are elsewhere
-const HOSTNAME = 'https://www.boatsremoval.com';
+const HOSTNAME = 'https://boatremove.com';
 
 async function generateSitemap() {
   const routerContent = fs.readFileSync(

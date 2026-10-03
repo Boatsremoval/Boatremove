@@ -42,7 +42,7 @@ export default function SunkenBoatRemoval() {
   return (
   <>
   <Helmet>
-    <link rel="canonical" href="https://boatsremoval.com/sunken-boat-removal" />
+    <link rel="canonical" href="https://boatremove.com/sunken-boat-removal" />
   </Helmet>
   <Header />
 

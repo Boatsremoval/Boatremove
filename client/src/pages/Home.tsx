@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <link rel="canonical" href="https://boatsremoval.com/" />
+        <link rel="canonical" href="https://boatremove.com/" />
       </Helmet>
       <Header />
       <main className="relative">

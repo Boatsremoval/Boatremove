@@ -54,7 +54,7 @@ export default function JunkBoatRemoval() {
   return (
   <>
   <Helmet>
-    <link rel="canonical" href="https://boatsremoval.com/junk-boat-removal" />
+    <link rel="canonical" href="https://boatremove.com/junk-boat-removal" />
   </Helmet>
   <Header />
 

@@ -14,7 +14,7 @@ export default function Services() {
   return (
   <>
   <Helmet>
-    <link rel="canonical" href="https://boatsremoval.com/services" />
+    <link rel="canonical" href="https://boatremove.com/services" />
   </Helmet>
   <Header />
 

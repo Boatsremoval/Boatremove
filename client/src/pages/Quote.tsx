@@ -237,7 +237,7 @@ export default function Quote() {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <link rel="canonical" href="https://boatsremoval.com/quote" />
+        <link rel="canonical" href="https://boatremove.com/quote" />
       </Helmet>
       <Header />
       <main className="flex-1 pt-20 md:pt-24 pb-16 bg-muted">

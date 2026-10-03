@@ -58,7 +58,7 @@ export default function About() {
   return (
 <>
 <Helmet>
-  <link rel="canonical" href="https://boatsremoval.com/about" />
+  <link rel="canonical" href="https://boatremove.com/about" />
 </Helmet>
 <Header />
 

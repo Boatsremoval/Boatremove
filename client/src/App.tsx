@@ -13,8 +13,6 @@ import JunkBoatRemoval from "@/pages/JunkBoatRemoval";
 import SalvageBoatRemoval from "@/pages/SalvageBoatRemoval";
 import SunkenBoatRemoval from "@/pages/SunkenBoatRemoval";
 import Quote from "@/pages/Quote";
-import PompanoBeach from "@/pages/PompanoBeach";
-import TampaBoatRemoval from "@/pages/TampaBay";
 import NotFound from "@/pages/not-found";
 
 import Miami from "@/pages/SEO/Miami"
@@ -227,8 +225,6 @@ function Router() {
       <Route path="/junk-boat-removal" component={JunkBoatRemoval} />
       <Route path="/salvage-boat-removal" component={SalvageBoatRemoval} />
       <Route path="/sunken-boat-removal" component={SunkenBoatRemoval} />
-      <Route path="/pompano-beach-boat-removal" component={PompanoBeach} />
-      <Route path="/tampa-boat-removal" component={TampaBoatRemoval} />
       <Route path="/boat-removal-fl-miami" component={Miami} />
       <Route path="/boat-removal-fl-hialeah" component={Hialeah} />
       <Route path="/boat-removal-fl-miami-beach" component={MiamiBeach} />

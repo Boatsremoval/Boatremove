@@ -14,7 +14,7 @@ export default function Vessel() {
   return (
   <>
   <Helmet>
-    <link rel="canonical" href="https://boatsremoval.com/vessel" />
+    <link rel="canonical" href="https://boatremove.com/vessel" />
   </Helmet>
   <Header />
 

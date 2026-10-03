@@ -5,7 +5,7 @@ import { allCities } from "../data/cities_test.js";
 // === CONFIG ===
 const TEMPLATE_CITY = "Pompano Beach"; // base template
 const TEMPLATE_COUNTY = "Broward"; // county to replace in template
-const TEMPLATE_FILE = "client/src/pages/PompanoBeach.tsx";
+const TEMPLATE_FILE = "client/src/pages/SEO/PompanoBeach.tsx";
 const OUTPUT_DIR = "client/src/pages/SEO/westcoast";
 
 // === MAIN ===
@@ -72,7 +72,7 @@ for (const city of allCities) {
 
   content = content.replace(
     /<link\s+rel="canonical"[^>]*>/,
-    `<link rel="canonical" href="https://boatsremoval.com/boat-removal-fl-${safeCity}" />`,
+    `<link rel="canonical" href="https://boatremove.com/boat-removal-fl-${safeCity}" />`,
   );
 
   // === Update helper function calls ===
